@@ -1,0 +1,191 @@
+/* Home & DN specific styles */
+
+/*homepage*/
+.intro-header {
+    padding-top: 50px;
+    padding-bottom: 0;
+    text-align: center;
+    background: #000 url(/img/bg/bg-lg-masterheader.jpg) no-repeat center 30px;
+}
+.intro-message {
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+.intro-message > h1 {
+    margin-top: 0;
+}
+.intro-message .btn-aqred {
+    width: 165px;
+}
+.cta {
+    display:table;
+    width: 100%;
+}
+.cta > div {
+    display:table-cell;
+    vertical-align: bottom;
+    float:none;
+}
+.promo {
+	background: #000 url(/img/bg/bg-lg-promobox.jpg) no-repeat center top;
+	min-height:332px;
+    position: relative;
+}
+.promo-content {
+	padding: 0;
+    margin: 5px auto;
+}
+.promo-content > div {
+    position: relative;
+}
+.promo-content > div a img:hover {
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+}
+.promo-content > div .caption {
+    font-size: 1.975em;
+    letter-spacing: 0.02em;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+    margin-top: -47px;
+}
+.create,.create:hover,.upgrade,.upgrade:hover,.create:focus,.upgrade:focus {
+    display:block;
+    width:280px;
+    height:190px;
+    margin:0 auto;
+}
+.create,.create:hover,.create:focus {
+    background: url(/img/btn/btn-lg-create.png) no-repeat 0 bottom;
+}
+.upgrade,.upgrade:hover,.upgrade:focus {
+    background: url(/img/btn/btn-lg-upgrade.png) no-repeat 0 bottom;
+}
+.create:hover,.create:focus,.upgrade:hover,.upgrade:focus {
+    background-position: -280px bottom;
+}
+.play,.play:hover,.play:focus {
+    display:block;
+    width:320px;
+    height:190px;
+    background: url(/img/btn/btn-lg-play.png) no-repeat 0 top;
+    margin:0 auto;
+}
+.play:hover,.play:focus {
+    background-position: -320px bottom;
+}
+.hm-dns,.hm-dns:hover,.hm-dns:focus {
+    display:block;
+    width:570px;
+    height:55px;
+    background: url(/img/btn/btn-lg-designnotes.png) no-repeat 0 0;
+    position: absolute;
+    left: 50%;
+    margin-left: -285px;
+    bottom: 10px;
+}
+.hm-dns:hover,.hm-dns:focus  {
+    background-position: -570px 0;
+}
+
+/*media queries*/
+@media only screen and (max-width:1205px) {
+	.create,.create:hover,.upgrade,.upgrade:hover,.create:focus,.upgrade:focus {
+		width:220px;
+		height:118px;
+	}
+    .create,.create:hover,.create:focus {
+        background: url(/img/btn/btn-md-create.png) no-repeat 0 bottom;
+    }
+    .upgrade,.upgrade:hover,.upgrade:focus {
+        background: url(/img/btn/btn-md-upgrade.png) no-repeat 0 bottom;
+    }
+    .create:hover,.create:focus,.upgrade:hover,.upgrade:focus {
+        background-position: -220px bottom;
+    }
+    .play,.play:hover,.play:focus {
+        width:230px;
+        height:137px;
+        background: url(/img/btn/btn-md-play.png) no-repeat 0 top;
+    }
+    .play:hover,.play:focus {
+        background-position: -230px bottom;
+    }
+	.promo {
+		background: url(/img/bg/bg-md-promobox.jpg) no-repeat center top;
+		min-height:317px!important;
+	}
+	.hm-dns,.hm-dns:hover,.hm-dns:focus {
+		width:552px;
+		height:54px;
+		background: url(/img/btn/btn-md-designnotes.png) no-repeat 0 0;
+        margin-left: -276px;
+	}
+	.hm-dns:hover,.hm-dns:focus {
+		background-position: -552px 0;
+	}
+}
+@media only screen and (max-width:1000px) {
+    .intro-message > h1 {
+        display:none;
+    }
+    .intro-header {
+        background: #000 url(/img/bg/bg-md-mastheader.jpg) no-repeat center 30px;
+    }
+    .intro-message {
+        padding-top: 20%;
+    }
+    .create,.create:hover,.upgrade,.upgrade:hover,.create:focus,.upgrade:focus {
+		width:200px;
+		height:65px;
+	}
+    .create,.create:hover,.create:focus {
+        background: url(/img/btn/btn-sm-create.png) no-repeat 0 bottom;
+    }
+    .upgrade,.upgrade:hover,.upgrade:focus {
+        background: url(/img/btn/btn-sm-upgrade.png) no-repeat 0 bottom;
+    }
+    .create:hover,.create:focus,.upgrade:hover,.upgrade:focus {
+        background-position: -200px bottom;
+    }
+    .promo {
+        background: #000 url(/img/bg/bg-md-promobox-980.jpg) no-repeat center top;
+        min-height:253px!important;
+    }
+}
+@media only screen and (max-width:771px) {
+    .intro-message {
+        padding-top: 10%;
+    }
+}
+@media only screen and (max-width:767px) {
+    .intro-header {
+        background: #000 url(/img/bg/bg-sm-mastheader.jpg) no-repeat center 60px cover;
+    }
+	.promo {
+		width: 100%;
+		overflow: hidden;
+		background: url(/img/bg/bg-sm-promobox.jpg) no-repeat center top;
+		height:790px;
+	}
+    .promo-content > div {
+        margin: 10px auto;
+    }
+    .intro-message > div a {
+        margin: 10px auto
+    }
+	
+	 .promo [class^="col"], .nopadding-sides [class^="col"] {
+		clear: both;
+		padding-bottom: 0!important;
+	}
+}

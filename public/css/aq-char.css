@@ -1,0 +1,82 @@
+.sub-header {
+    background-position: center 30px;
+    background-repeat: no-repeat;
+    background-color: #000;
+    height: 370px;
+	background-image: url(/img/bg/bg-sub-fellbeast.jpg);}
+
+.policy h4,.policy ol li {margin:15px 0 0}
+.policy, .policy blockquote {font-size:14px}
+.policy table td {font-size:13px}
+.policy a > h2, .policy a > h4 {
+    color:#000;
+}
+.fb-like {display:block;}
+.bread-wrap {padding:0}
+.bread-wrap .breadcrumb {
+	background-color: transparent;
+	margin-left:0;
+	margin-bottom:0;
+	padding-left:0;
+}
+.block {
+	display:block!important;
+	margin-top: 10px;
+}
+
+/* Achievement */
+.achievements {
+	margin:5 auto;
+	width: 100%;
+	max-width:700px;
+	margin-right:-8px;
+}
+.achievements a {
+	margin: 20px auto;
+	display: inline-block;
+	width: 100px;
+	text-align: center
+}
+.items a, .items a:hover {background-color:rgba(181, 138, 0, 0.1);text-decoration:none!important;}
+.armor, .axe, .bow, .cape, .class, .dagger, .gun, .hammer, .helm, .item, .mace, .pet, .polearm, .spear, .staff, .sword, .flooritem, .wallitem, .questitem, .note,.serveruse,.necklace,.house {
+	background-image url('../images/icons/item.gif');
+	background-repeat:no-repeat;
+	background-position: 0 center;
+	text-indent: 20px;
+	line-height:25px;
+	border-bottom: 1px solid rgba(181, 138, 0, 0.05)
+}
+.armor {background-image:url('../images/icons/Armor.png?Last')}
+.axe {background-image:url('../images/icons/axe.png')}
+.bow {background-image:url('../images/icons/bow.png')}
+.cape {background-image:url('../images/icons/cape.png')}
+.class {background-image:url('../images/icons/class.png')}
+.dagger {background-image:url('../images/icons/dagger.png')}
+.staff {background-image:url('../images/icons/staff.png')}
+.gun {background-image:url('../images/icons/gun.png')}
+.hammer {background-image:url('../images/icons/hammer.png')}
+.helm {background-image:url('../images/icons/helm.png')}
+.item {background-image:url('../images/icons/item.png')}
+.mace {background-image:url('../images/icons/mace.png')}
+.pet {background-image:url('../images/icons/pet.png')}
+.polearm {background-image:url('../images/icons/polearm.png')}
+.spear {background-image:url('../images/icons/spear.png')}
+.staff {background-image:url('../images/icons/staff.png')}
+.sword {background-image:url('../images/icons/sword.png')}
+.flooritem {background-image:url('../images/icons/flooritem.png')}
+.wallitem {	background-image:url('../images/icons/wallitem.png')}
+.house {background-image:url('../images/icons/house.png')}
+
+.memItem {color:#609; font-weight:bold;}
+.acItem {color:#F57F00; font-weight:bold;}
+.normItem {color: #5D5D5D;font-weight: bold;}
+
+/*media queries*/
+@media only screen and (max-width:992px) {
+}
+@media only screen and (max-width:771px) {
+}
+/* profilepic */
+.modal-content {
+	border: 1px solid #b69935
+}

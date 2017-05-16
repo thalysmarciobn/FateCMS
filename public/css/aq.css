@@ -1,0 +1,226 @@
+*,a, a:hover,a:focus, a:active,button:focus,button:active {outline-style:none!important;outline:0!important}
+a:hover,a:focus, a:active {cursor: pointer!important}
+body,html {
+    width: 100%;
+    height: 100%;
+	margin: 0;
+	padding: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+}
+h1,h2,h3,h4,h5,h6,.PostTitle {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+.row, .navbar-nav {margin-left:0!important;margin-right:0!important}
+section {
+    padding: 10px 0;
+    margin:0
+}
+.banner {
+    padding: 100px 0;
+    background: url(/img/bg/bg-lg-masterheader.jpg) no-repeat center bottom;
+    background-size: cover;
+}
+.banner ul {margin-bottom: 0;}
+footer {padding: 50px 0;}
+p.copyright {
+    margin: 15px 0 0;
+    text-align: center;
+}
+
+.text-title {font-size:36px}
+.text-subtitle {font-size:20px;}
+.text-big {font-size:1.8rem}
+.text-normal {font-size: 14px;}
+
+#main-content, .bg-scroll {
+    background:#000 url(/img/bg/bg-lg-parchment.jpg) repeat-y center;
+	padding-top: 0;
+	padding-bottom:30px;
+}
+
+.scroll-top, .scroll-bottom {
+    display:block;
+    margin: 0 auto;
+    width:100%;
+    height:103px;
+}
+.scroll-top {background: #000 url(/img/bg/bg-lg-scroll-top.jpg) no-repeat center top;}
+.scroll-bottom {background: #000 url(/img/bg/bg-lg-scroll-bottom.jpg) no-repeat center top;}
+.scroll-top h1 {
+    padding-left: 30px;
+}
+/* AE Menu */
+.navbar-aenetwork h3, .navbar-aenetwork h4, .navbar-right.in h4 {
+	text-transform: uppercase;
+    padding-left: 15px;
+}
+li.divider {
+    height: 1px;
+    margin: 6px 0;
+    overflow: hidden;
+}
+.navbar-aenetwork .navbar-nav > li > a {
+	padding-top: 6px;
+	padding-bottom: 6px;
+    white-space: nowrap;
+    opacity:0.9
+}
+.navbar-aenetwork .navbar-nav > li > a:hover {opacity:1}
+.navbar-aenetwork li img, .offcanvas-title img {
+	position: relative;
+	display: inline-block;
+	margin-right:5px;
+}
+/* AE Top Bar */
+.aenetwork-bar {
+    font-size:12px;
+    font-weight:normal;
+    line-height:30px;
+    position: relative;
+}
+.aenetwork-bar .server-info > div {
+    position: absolute;
+    right: 0;
+    line-height: 30px;
+}
+.aenetwork-bar .server-info > div > div {
+    display: inline-block;
+    padding: 0 10px;
+}
+.aenetwork-bar .ae-logo {
+	background: url(/img/network/aebar-logo.jpg) 0 0 no-repeat;
+	width:138px;
+	height:30px;
+	display:block;
+    opacity: .7;
+    cursor: pointer;
+}
+.ae-logo:hover {
+    color: #fff;
+    opacity: 1;
+    cursor: pointer;
+}
+/* dns */
+.date {
+	font-size:12px;
+	font-weight:bold;
+	margin:0;
+}
+.dns .date + h2, .PostTitle {font-size:24px;margin:0;}
+.dns h3 {font-size:16px;color:#900;margin:2px 0}
+
+.dns .post {
+    margin-left: 10px;
+    padding: 15px;
+    border-radius: 10px;
+	width: calc(100% - 115px - 20px);
+}
+.dns .post img {
+	max-width: 100%!important;
+	height: auto;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.dns .readmore {
+	margin: 20px;
+	margin-left: 115px;	
+}
+.dns .readmore:hover {text-decoration: none!important;}
+
+.yearHeader {padding-top:2px}
+.yearSection {display:none; margin-left:15px}
+
+/* Margins & Padding */
+.nomargin,.navbar-brand,.navbar-right {margin:0!important}
+.nomargin-top, .sect-divider {margin-top:0!important}
+.nomargin-bot, .sect-divider {margin-bottom:0!important}
+.nomargin-sides, body {margin-left:0!important;margin-right:0!important}
+.margintop-5 {margin-top:5px!important}
+.margintop-10 {margin-top:10px!important}
+.margintop-15 {margin-top:15px!important}
+.margintop-20, .margin-20 {margin-top:20px!important}
+.margintop-30 {margin-top:30px!important}
+.marginbot-10 {margin-bottom:10px!important}
+.marginbot-20, .margin-20, .servers {margin-bottom:20px!important}
+.marginleft-20, .marginside-20 {margin-left:20px!important}
+.marginside-20 {margin-right:20px!important}
+
+.padding {padding:5px 10px}
+.paddingtop-20, .padding-20 {padding-top:20px!important}
+.paddingtop-50 {padding-top:50px!important}
+.paddingbot-20, .padding-20 {padding-bottom:20px!important}
+.paddingsides-25 {padding-left:25px!important;padding-right:25px!important;}
+
+.rounded {
+	border-radius: 15px;
+	padding:20px 15px;
+	margin-bottom: 15px;}
+
+body, .row, .nopadding-sides, .navbar-brand, .nopadding, .nopadding-right, .dns {padding-right:0!important}
+body, .row, .nopadding-sides, .navbar-brand, .nopadding, .nopadding-left {padding-left:0!important}
+.nopadding-top, .nopadding, .navbar-brand {padding-top:0!important}
+.nopadding-bot, .nopadding, .navbar-brand{padding-bottom:0!important}
+
+.vertical-align {
+  display: flex;
+  flex-direction: row;
+}
+.vertical-align > [class^="col-"],
+.vertical-align > [class*=" col-"] {
+  display: flex;
+  align-items: center;
+}
+#twitter-widget-0 {
+    margin:0 auto!important
+}
+
+/* right-side */
+.right-side a {max-width:100%;}
+.right-side a img {
+    margin-bottom: 10px;
+    opacity: 1;
+}
+.right-side a img:hover {
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+    opacity: 0.9;
+}
+.right-side .sliver {
+    padding: 5px 0;
+    max-width:350px;
+    margin-bottom:10px;
+}
+.right-side .sliver a {display:inline-block;}
+.right-side .sliver p {margin-top: 15px}
+.right-side .well {
+    max-width:350px;
+    border-radius: 15px;
+	margin: auto auto 10px auto;
+}
+pre {
+  margin-top: 20px;
+}
+/* Overwrites */
+@media (min-width:768px) {
+.container {
+	width: auto;
+	margin-left: auto;
+}
+}
+@media (min-width:992px) {
+.container {
+	width: calc(100% - 30px);
+	margin-left: 5px;
+}
+}
+
+@media (min-width:1200px) {
+.container {
+	width: 1170px;
+	margin-left: auto;
+}
+}

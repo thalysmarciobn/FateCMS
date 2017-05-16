@@ -1,0 +1,226 @@
+/* Text */
+.text-light, .intro-message > h1, .close {color:#eee}
+.text-dark {color:#222}
+.text-grey,.right-side .well .title {color:#454545;}
+.text-red,#main-content a {color: #990000}
+.text-server {color:#fcd173}
+.copyright a {color:#ccc}
+.date {color:#444}
+.aenetwork-bar {color:#a1a1a1}
+
+/* Links */
+#main-content a {text-decoration: underline}
+#main-content a:focus, #main-content a:hover {color:#d30000;text-decoration:underline}
+.dns h2 a {color:#222!important}
+.dns h2 a:focus,.dns h2 a:hover, .close:hover {color:#fff}
+
+/* Backgrounds */
+.bg-scroll {background:#FFF9E6}
+.bg-blue {background:blue}
+.bg-black {background:#000}
+.bg-default2 {background:#0A0D10}
+.servers {
+    background: rgba(0,0,0,0);
+    background: -moz-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 25%, rgba(0,0,0,0.7) 75%, rgba(0,0,0,0) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,0,0,0)), color-stop(25%, rgba(0,0,0,0.7)), color-stop(75%, rgba(0,0,0,0.7)), color-stop(100%, rgba(0,0,0,0)));
+    background: -webkit-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 25%, rgba(0,0,0,0.7) 75%, rgba(0,0,0,0) 100%);
+    background: -o-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 25%, rgba(0,0,0,0.7) 75%, rgba(0,0,0,0) 100%);
+    background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 25%, rgba(0,0,0,0.7) 75%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(to right, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 25%, rgba(0,0,0,0.7) 75%, rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
+}
+
+.right-side .grey {
+    background-color: #202020;
+    color: #eee;
+}
+
+.dns .post {
+  background-color: #FEF7E1;
+  border: 1px solid #AA8342;
+}
+
+/* Borders */
+.border-gold,.border-gold-top {
+	border-top: 1px solid #ecc923;
+}
+.border-gold,.border-gold-bottom {
+	border-bottom: 1px solid #ecc923;
+}
+.right-side .well {
+  border: 1px solid #AA8342;
+  background: #FEF7E1;
+}
+
+.text-grey, .right-side .well .title {
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #454545;
+}
+
+
+/* Media Queries*/
+@media only screen and (max-width:767px) {
+    .offcanvas {background-color:#000!important}
+}
+
+/* Overwrites */
+li.divider {background-color:#222}
+
+.list-group-item {
+    background-color: #fdefc2;
+    border: 1px solid #dccea7;
+}
+.list-group-item:hover {
+    background-color: #fdefc2;
+}
+blockquote {
+	background-color: rgba(181, 138, 0, 0.05);
+	margin-left: 30px;
+	border-color: rgba(181, 138, 0, 0.25);
+}
+/* JasnyColors */
+.navmenu-default, .navbar-default .navbar-offcanvas {
+	background-color:transparent;
+	border-color: #303843
+}
+.navmenu-default .navmenu-text, .navbar-default .navbar-offcanvas .navmenu-text {
+	color: #777
+}
+.navmenu-default .navmenu-nav>.dropdown>a:hover .caret, .navbar-default .navbar-offcanvas .navmenu-nav>.dropdown>a:hover .caret, .navmenu-default .navmenu-nav>.dropdown>a:focus .caret, .navbar-default .navbar-offcanvas .navmenu-nav>.dropdown>a:focus .caret, .navbar-aenetwork .navmenu-nav>.dropdown>a:hover . caret {
+	border-top-color: #333;
+	border-bottom-color: #333
+}
+.navmenu-default .navmenu-nav>.open>a, .navbar-default .navbar-offcanvas .navmenu-nav>.open>a, .navmenu-default .navmenu-nav>.open>a:hover, .navbar-default .navbar-offcanvas .navmenu-nav>.open>a:hover, .navmenu-default .navmenu-nav>.open>a:focus, .navbar-default .navbar-offcanvas .navmenu-nav>.open>a:focus {
+	background-color: #eda00b;
+	text-shadow: 1px 1px 2px #000;
+	color: #fff
+}
+.navmenu-default .navmenu-nav>.open>a .caret, .navbar-default .navbar-offcanvas .navmenu-nav>.open>a .caret, .navmenu-default .navmenu-nav>.open>a:hover .caret, .navbar-default .navbar-offcanvas .navmenu-nav>.open>a:hover .caret, .navmenu-default .navmenu-nav>.open>a:focus .caret, .navbar-default .navbar-offcanvas .navmenu-nav>.open>a:focus .caret {
+	border-top-color: #555;
+	border-bottom-color: #555
+}
+.navmenu-default .navmenu-nav>.dropdown>a .caret, .navbar-default .navbar-offcanvas .navmenu-nav>.dropdown>a .caret {
+	border-top-color: #fff;
+	border-bottom-color: #fff
+}
+.navmenu-default .navmenu-nav.dropdown-menu, .navbar-default .navbar-offcanvas .navmenu-nav.dropdown-menu {
+	background-color: #080808
+}
+.navmenu-default .navmenu-nav.dropdown-menu>.divider, .navbar-default .navbar-offcanvas .navmenu-nav.dropdown-menu>.divider,.navbar-aenetwork .navmenu-nav.dropdown-menu>.divider {
+	background-color: #444
+}
+.navmenu-default .navmenu-nav.dropdown-menu>.active>a, .navbar-default .navbar-offcanvas .navmenu-nav.dropdown-menu>.active>a, .navmenu-default .navmenu-nav.dropdown-menu>.active>a:hover, .navbar-default .navbar-offcanvas .navmenu-nav.dropdown-menu>.active>a:hover, .navmenu-default .navmenu-nav.dropdown-menu>.active>a:focus, .navbar-default .navbar-offcanvas .navmenu-nav.dropdown-menu>.active>a:focus {
+	background-color: #eda00b;
+	text-shadow: 1px 1px 2px #000
+}
+.navmenu-default .navmenu-nav>li>a, .navbar-default .navbar-offcanvas .navmenu-nav>li>a {
+	color: #fff
+}
+.navmenu-default .navmenu-nav>li>a:hover, .navbar-default .navbar-offcanvas .navmenu-nav>li>a:hover, .navmenu-default .navmenu-nav>li>a:focus, .navbar-default .navbar-offcanvas .navmenu-nav>li>a:focus {
+	color: #fff;
+	text-shadow: 1px 1px 2px #000;
+	background-color: #eda00b
+}
+.navmenu-default .navmenu-nav>.active>a, .navbar-default .navbar-offcanvas .navmenu-nav>.active>a, .navmenu-default .navmenu-nav>.active>a:hover, .navbar-default .navbar-offcanvas .navmenu-nav>.active>a:hover, .navmenu-default .navmenu-nav>.active>a:focus, .navbar-default .navbar-offcanvas .navmenu-nav>.active>a:focus {
+	color: #fff;
+	background-color: #080808
+}
+.navmenu-default .navmenu-nav>.disabled>a, .navbar-default .navbar-offcanvas .navmenu-nav>.disabled>a, .navmenu-default .navmenu-nav>.disabled>a:hover, .navbar-default .navbar-offcanvas .navmenu-nav>.disabled>a:hover, .navmenu-default .navmenu-nav>.disabled>a:focus, .navbar-default .navbar-offcanvas .navmenu-nav>.disabled>a:focus {
+	color: #444;
+	background-color: transparent
+}
+
+/* Bootstrap */
+a {
+	color: #5C5C5C;
+}
+a:focus, a:hover {
+	color: #5C5C5C;
+}
+.img-thumbnail { 
+	background-color: #fff;
+	border: 1px solid #ddd;   
+}
+caption {
+	color: #777;
+}
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+	border-color: #428bca
+}
+.thumbnail .caption {
+	padding: 9px;
+	color: #eee
+}
+/* MenuStuff */
+.badge {
+	color: #fff;
+	background-color: #777
+}
+a.badge:focus, a.badge:hover {
+	color: #fff
+}
+.nav-pills>.active>a>.badge, a.list-group-item.active>.badge {
+	color: #428bca;
+	background-color: #fff
+}
+a.list-group-item {
+	color: #555
+}
+a.list-group-item .list-group-item-heading {
+	color: #333
+}
+a.list-group-item:focus, a.list-group-item:hover {
+	color: #555;
+	background-color: #f5ece1
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+	color: #fff;
+	background-color: #eda00b;
+	border-color: #ed850b
+}
+.list-group-item.active .list-group-item-text, .list-group-item.active:focus .list-group-item-text, .list-group-item.active:hover .list-group-item-text {
+	color: #e1edf7
+}
+.list-group-item-info {
+	color: #31708f;
+	background-color: #d9edf7
+}
+a.list-group-item-info {
+	color: #31708f
+}
+a.list-group-item-info:focus, a.list-group-item-info:hover {
+	color: #31708f;
+	background-color: #c4e3f3
+}
+a.list-group-item-info.active, a.list-group-item-info.active:focus, a.list-group-item-info.active:hover {
+	color: #fff;
+	background-color: #31708f;
+	border-color: #31708f
+}
+.well, .bread-wrap {
+	background-color: rgba(181, 138, 0, 0.15);
+	border: 1px solid #b58a00;
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.15) inset
+}
+.panel-default {
+	background-color: rgba(255, 255, 255, 0.3);
+	border: 1px solid #b58a00;
+	box-shadow:0 1px 1px rgba(0, 0, 0, 0.3) outset
+}
+.panel-default > .panel-heading {
+    color: #333;
+	background-color: rgba(181, 138, 0, 0.25);
+    border-color: #DDD;
+}
+.bread-wrap .breadcrumb {
+	background-color: transparent;
+}
+.breadcrumb>li+li:before {
+	color: #B58A00;
+}
+.breadcrumb>.active {
+	color: #777
+}
